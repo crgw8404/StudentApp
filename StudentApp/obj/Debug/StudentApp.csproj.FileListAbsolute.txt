@@ -1,0 +1,181 @@
+X:\StudentApp\StudentApp\bin\Debug\StudentApp.exe.config
+X:\StudentApp\StudentApp\bin\Debug\StudentApp.exe
+X:\StudentApp\StudentApp\bin\Debug\StudentApp.pdb
+X:\StudentApp\StudentApp\obj\Debug\StudentApp.csprojAssemblyReference.cache
+X:\StudentApp\StudentApp\obj\Debug\StudentApp.Form1.resources
+X:\StudentApp\StudentApp\obj\Debug\StudentApp.Properties.Resources.resources
+X:\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.GenerateResource.cache
+X:\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+X:\StudentApp\StudentApp\obj\Debug\StudentApp.exe
+X:\StudentApp\StudentApp\obj\Debug\StudentApp.pdb
+X:\262\StudentApp\StudentApp\bin\Debug\StudentApp.exe.config
+X:\262\StudentApp\StudentApp\bin\Debug\StudentApp.exe
+X:\262\StudentApp\StudentApp\bin\Debug\StudentApp.pdb
+X:\262\StudentApp\StudentApp\obj\Debug\StudentApp.csprojAssemblyReference.cache
+X:\262\StudentApp\StudentApp\obj\Debug\StudentApp.Form1.resources
+X:\262\StudentApp\StudentApp\obj\Debug\StudentApp.Properties.Resources.resources
+X:\262\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.GenerateResource.cache
+X:\262\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+X:\262\StudentApp\StudentApp\obj\Debug\StudentApp.exe
+X:\262\StudentApp\StudentApp\obj\Debug\StudentApp.pdb
+C:\Users\timbr\OneDrive\1201\262\working\week3\StudentApp_190828\StudentApp_190828\StudentApp\bin\Debug\StudentApp.exe.config
+C:\Users\timbr\OneDrive\1201\262\working\week3\StudentApp_190828\StudentApp_190828\StudentApp\bin\Debug\StudentApp.exe
+C:\Users\timbr\OneDrive\1201\262\working\week3\StudentApp_190828\StudentApp_190828\StudentApp\bin\Debug\StudentApp.pdb
+C:\Users\timbr\OneDrive\1201\262\working\week3\StudentApp_190828\StudentApp_190828\StudentApp\obj\Debug\StudentApp.csprojAssemblyReference.cache
+C:\Users\timbr\OneDrive\1201\262\working\week3\StudentApp_190828\StudentApp_190828\StudentApp\obj\Debug\StudentApp.Form1.resources
+C:\Users\timbr\OneDrive\1201\262\working\week3\StudentApp_190828\StudentApp_190828\StudentApp\obj\Debug\StudentApp.Properties.Resources.resources
+C:\Users\timbr\OneDrive\1201\262\working\week3\StudentApp_190828\StudentApp_190828\StudentApp\obj\Debug\StudentApp.csproj.GenerateResource.cache
+C:\Users\timbr\OneDrive\1201\262\working\week3\StudentApp_190828\StudentApp_190828\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+C:\Users\timbr\OneDrive\1201\262\working\week3\StudentApp_190828\StudentApp_190828\StudentApp\obj\Debug\StudentApp.exe
+C:\Users\timbr\OneDrive\1201\262\working\week3\StudentApp_190828\StudentApp_190828\StudentApp\obj\Debug\StudentApp.pdb
+X:\262\StudentAppPt3\StudentApp\StudentApp\bin\Debug\StudentApp.exe.config
+X:\262\StudentAppPt3\StudentApp\StudentApp\bin\Debug\StudentApp.exe
+X:\262\StudentAppPt3\StudentApp\StudentApp\bin\Debug\StudentApp.pdb
+X:\262\StudentAppPt3\StudentApp\StudentApp\obj\Debug\StudentApp.csprojAssemblyReference.cache
+X:\262\StudentAppPt3\StudentApp\StudentApp\obj\Debug\StudentApp.Form1.resources
+X:\262\StudentAppPt3\StudentApp\StudentApp\obj\Debug\StudentApp.Properties.Resources.resources
+X:\262\StudentAppPt3\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.GenerateResource.cache
+X:\262\StudentAppPt3\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+X:\262\StudentAppPt3\StudentApp\StudentApp\obj\Debug\StudentApp.exe
+X:\262\StudentAppPt3\StudentApp\StudentApp\obj\Debug\StudentApp.pdb
+X:\262\StudentAppPt3_190903\StudentAppPt3\StudentApp\StudentApp\bin\Debug\StudentApp.exe.config
+X:\262\StudentAppPt3_190903\StudentAppPt3\StudentApp\StudentApp\bin\Debug\StudentApp.exe
+X:\262\StudentAppPt3_190903\StudentAppPt3\StudentApp\StudentApp\bin\Debug\StudentApp.pdb
+X:\262\StudentAppPt3_190903\StudentAppPt3\StudentApp\StudentApp\obj\Debug\StudentApp.csprojAssemblyReference.cache
+X:\262\StudentAppPt3_190903\StudentAppPt3\StudentApp\StudentApp\obj\Debug\StudentApp.Form1.resources
+X:\262\StudentAppPt3_190903\StudentAppPt3\StudentApp\StudentApp\obj\Debug\StudentApp.Properties.Resources.resources
+X:\262\StudentAppPt3_190903\StudentAppPt3\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.GenerateResource.cache
+X:\262\StudentAppPt3_190903\StudentAppPt3\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+X:\262\StudentAppPt3_190903\StudentAppPt3\StudentApp\StudentApp\obj\Debug\StudentApp.exe
+X:\262\StudentAppPt3_190903\StudentAppPt3\StudentApp\StudentApp\obj\Debug\StudentApp.pdb
+X:\262\StudentAppPt3_190903\StudentAppPt3\StudentApp\StudentApp\obj\Debug\StudentApp.Form2.resources
+X:\262\StudentApp_191002\StudentApp\StudentApp\bin\Debug\StudentApp.exe.config
+X:\262\StudentApp_191002\StudentApp\StudentApp\bin\Debug\StudentApp.exe
+X:\262\StudentApp_191002\StudentApp\StudentApp\bin\Debug\StudentApp.pdb
+X:\262\StudentApp_191002\StudentApp\StudentApp\obj\Debug\StudentApp.csprojAssemblyReference.cache
+X:\262\StudentApp_191002\StudentApp\StudentApp\obj\Debug\StudentApp.Form1.resources
+X:\262\StudentApp_191002\StudentApp\StudentApp\obj\Debug\StudentApp.Form2.resources
+X:\262\StudentApp_191002\StudentApp\StudentApp\obj\Debug\StudentApp.Properties.Resources.resources
+X:\262\StudentApp_191002\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.GenerateResource.cache
+X:\262\StudentApp_191002\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+X:\262\StudentApp_191002\StudentApp\StudentApp\obj\Debug\StudentApp.exe
+X:\262\StudentApp_191002\StudentApp\StudentApp\obj\Debug\StudentApp.pdb
+C:\Users\timbr\OneDrive\1201\262\working\week15\StudentApp_191120\StudentApp\StudentApp\obj\Debug\StudentApp.csprojAssemblyReference.cache
+C:\Users\timbr\OneDrive\1201\262\working\week15\StudentApp_191120\StudentApp\StudentApp\obj\Debug\StudentApp.Form1.resources
+C:\Users\timbr\OneDrive\1201\262\working\week15\StudentApp_191120\StudentApp\StudentApp\obj\Debug\StudentApp.Form2.resources
+C:\Users\timbr\OneDrive\1201\262\working\week15\StudentApp_191120\StudentApp\StudentApp\obj\Debug\StudentApp.Properties.Resources.resources
+C:\Users\timbr\OneDrive\1201\262\working\week15\StudentApp_191120\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.GenerateResource.cache
+C:\Users\timbr\OneDrive\1201\262\working\week15\StudentApp_191120\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+C:\Users\timbr\OneDrive\1201\262\working\week15\StudentApp_191120\StudentApp\StudentApp\obj\Debug\StudentApp.exe
+C:\Users\timbr\OneDrive\1201\262\working\week15\StudentApp_191120\StudentApp\StudentApp\obj\Debug\StudentApp.pdb
+C:\Users\timbr\OneDrive\1201\262\working\week15\StudentApp_191120\StudentApp\StudentApp\bin\Debug\StudentApp.exe.config
+C:\Users\timbr\OneDrive\1201\262\working\week15\StudentApp_191120\StudentApp\StudentApp\bin\Debug\StudentApp.exe
+C:\Users\timbr\OneDrive\1201\262\working\week15\StudentApp_191120\StudentApp\StudentApp\bin\Debug\StudentApp.pdb
+D:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\bin\Debug\Students.mdf
+D:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\bin\Debug\Students_log.ldf
+D:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\bin\Debug\StudentApp.exe.config
+D:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\bin\Debug\StudentApp.exe
+D:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\bin\Debug\StudentApp.pdb
+D:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\bin\Debug\EntityFramework.dll
+D:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\bin\Debug\EntityFramework.xml
+D:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\obj\Debug\StudentApp.csprojAssemblyReference.cache
+D:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\obj\Debug\StudentApp.Form1.resources
+D:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\obj\Debug\StudentApp.Form2.resources
+D:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\obj\Debug\StudentApp.Properties.Resources.resources
+D:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.GenerateResource.cache
+D:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+D:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+D:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\obj\Debug\StudentApp.exe
+D:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\obj\Debug\StudentApp.pdb
+E:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\bin\Debug\Students.mdf
+E:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\bin\Debug\Students_log.ldf
+E:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\bin\Debug\StudentApp.exe.config
+E:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\bin\Debug\StudentApp.exe
+E:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\bin\Debug\StudentApp.pdb
+E:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\bin\Debug\EntityFramework.dll
+E:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\bin\Debug\EntityFramework.SqlServer.dll
+E:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\bin\Debug\EntityFramework.xml
+E:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\bin\Debug\EntityFramework.SqlServer.xml
+E:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\obj\Debug\StudentApp.csprojAssemblyReference.cache
+E:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\obj\Debug\StudentApp.Form1.resources
+E:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\obj\Debug\StudentApp.Form2.resources
+E:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\obj\Debug\StudentApp.Properties.Resources.resources
+E:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.GenerateResource.cache
+E:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+E:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+E:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\obj\Debug\StudentApp.exe
+E:\C# II\Unit 4\StudentAppEF_Starter\StudentApp\StudentApp\obj\Debug\StudentApp.pdb
+E:\StudentAppEF_Starter\StudentApp\StudentApp\bin\Debug\Students.mdf
+E:\StudentAppEF_Starter\StudentApp\StudentApp\bin\Debug\Students_log.ldf
+E:\StudentAppEF_Starter\StudentApp\StudentApp\bin\Debug\StudentApp.exe.config
+E:\StudentAppEF_Starter\StudentApp\StudentApp\bin\Debug\StudentApp.exe
+E:\StudentAppEF_Starter\StudentApp\StudentApp\bin\Debug\StudentApp.pdb
+E:\StudentAppEF_Starter\StudentApp\StudentApp\bin\Debug\EntityFramework.dll
+E:\StudentAppEF_Starter\StudentApp\StudentApp\bin\Debug\EntityFramework.SqlServer.dll
+E:\StudentAppEF_Starter\StudentApp\StudentApp\bin\Debug\EntityFramework.xml
+E:\StudentAppEF_Starter\StudentApp\StudentApp\bin\Debug\EntityFramework.SqlServer.xml
+E:\StudentAppEF_Starter\StudentApp\StudentApp\obj\Debug\StudentApp.csprojAssemblyReference.cache
+E:\StudentAppEF_Starter\StudentApp\StudentApp\obj\Debug\StudentApp.Form1.resources
+E:\StudentAppEF_Starter\StudentApp\StudentApp\obj\Debug\StudentApp.Form2.resources
+E:\StudentAppEF_Starter\StudentApp\StudentApp\obj\Debug\StudentApp.Properties.Resources.resources
+E:\StudentAppEF_Starter\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.GenerateResource.cache
+E:\StudentAppEF_Starter\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+E:\StudentAppEF_Starter\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+E:\StudentAppEF_Starter\StudentApp\StudentApp\obj\Debug\StudentApp.exe
+E:\StudentAppEF_Starter\StudentApp\StudentApp\obj\Debug\StudentApp.pdb
+E:\launchcode_app\StudentApp\StudentApp\bin\Debug\Students.mdf
+E:\launchcode_app\StudentApp\StudentApp\bin\Debug\Students_log.ldf
+E:\launchcode_app\StudentApp\StudentApp\bin\Debug\StudentApp.exe.config
+E:\launchcode_app\StudentApp\StudentApp\bin\Debug\StudentApp.exe
+E:\launchcode_app\StudentApp\StudentApp\bin\Debug\StudentApp.pdb
+E:\launchcode_app\StudentApp\StudentApp\bin\Debug\EntityFramework.dll
+E:\launchcode_app\StudentApp\StudentApp\bin\Debug\EntityFramework.SqlServer.dll
+E:\launchcode_app\StudentApp\StudentApp\bin\Debug\EntityFramework.xml
+E:\launchcode_app\StudentApp\StudentApp\bin\Debug\EntityFramework.SqlServer.xml
+E:\launchcode_app\StudentApp\StudentApp\obj\Debug\StudentApp.csprojAssemblyReference.cache
+E:\launchcode_app\StudentApp\StudentApp\obj\Debug\StudentApp.Form1.resources
+E:\launchcode_app\StudentApp\StudentApp\obj\Debug\StudentApp.Form2.resources
+E:\launchcode_app\StudentApp\StudentApp\obj\Debug\StudentApp.Properties.Resources.resources
+E:\launchcode_app\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.GenerateResource.cache
+E:\launchcode_app\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+E:\launchcode_app\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+E:\launchcode_app\StudentApp\StudentApp\obj\Debug\StudentApp.exe
+E:\launchcode_app\StudentApp\StudentApp\obj\Debug\StudentApp.pdb
+C:\Users\crgw8\Desktop\StudentApp\StudentApp\bin\Debug\Students.mdf
+C:\Users\crgw8\Desktop\StudentApp\StudentApp\bin\Debug\Students_log.ldf
+C:\Users\crgw8\Desktop\StudentApp\StudentApp\bin\Debug\StudentApp.exe.config
+C:\Users\crgw8\Desktop\StudentApp\StudentApp\bin\Debug\StudentApp.exe
+C:\Users\crgw8\Desktop\StudentApp\StudentApp\bin\Debug\StudentApp.pdb
+C:\Users\crgw8\Desktop\StudentApp\StudentApp\bin\Debug\EntityFramework.dll
+C:\Users\crgw8\Desktop\StudentApp\StudentApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\crgw8\Desktop\StudentApp\StudentApp\bin\Debug\EntityFramework.xml
+C:\Users\crgw8\Desktop\StudentApp\StudentApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\crgw8\Desktop\StudentApp\StudentApp\obj\Debug\StudentApp.csprojAssemblyReference.cache
+C:\Users\crgw8\Desktop\StudentApp\StudentApp\obj\Debug\StudentApp.Form1.resources
+C:\Users\crgw8\Desktop\StudentApp\StudentApp\obj\Debug\StudentApp.Form2.resources
+C:\Users\crgw8\Desktop\StudentApp\StudentApp\obj\Debug\StudentApp.Properties.Resources.resources
+C:\Users\crgw8\Desktop\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.GenerateResource.cache
+C:\Users\crgw8\Desktop\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+C:\Users\crgw8\Desktop\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+C:\Users\crgw8\Desktop\StudentApp\StudentApp\obj\Debug\StudentApp.exe
+C:\Users\crgw8\Desktop\StudentApp\StudentApp\obj\Debug\StudentApp.pdb
+C:\Users\crgw8\Desktop\newist\StudentApp\StudentApp\StudentApp\bin\Debug\Students.mdf
+C:\Users\crgw8\Desktop\newist\StudentApp\StudentApp\StudentApp\bin\Debug\Students_log.ldf
+C:\Users\crgw8\Desktop\newist\StudentApp\StudentApp\StudentApp\bin\Debug\StudentApp.exe.config
+C:\Users\crgw8\Desktop\newist\StudentApp\StudentApp\StudentApp\bin\Debug\StudentApp.exe
+C:\Users\crgw8\Desktop\newist\StudentApp\StudentApp\StudentApp\bin\Debug\StudentApp.pdb
+C:\Users\crgw8\Desktop\newist\StudentApp\StudentApp\StudentApp\bin\Debug\EntityFramework.dll
+C:\Users\crgw8\Desktop\newist\StudentApp\StudentApp\StudentApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\crgw8\Desktop\newist\StudentApp\StudentApp\StudentApp\bin\Debug\EntityFramework.xml
+C:\Users\crgw8\Desktop\newist\StudentApp\StudentApp\StudentApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\crgw8\Desktop\newist\StudentApp\StudentApp\StudentApp\obj\Debug\StudentApp.csprojAssemblyReference.cache
+C:\Users\crgw8\Desktop\newist\StudentApp\StudentApp\StudentApp\obj\Debug\StudentApp.Form1.resources
+C:\Users\crgw8\Desktop\newist\StudentApp\StudentApp\StudentApp\obj\Debug\StudentApp.Form2.resources
+C:\Users\crgw8\Desktop\newist\StudentApp\StudentApp\StudentApp\obj\Debug\StudentApp.Properties.Resources.resources
+C:\Users\crgw8\Desktop\newist\StudentApp\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.GenerateResource.cache
+C:\Users\crgw8\Desktop\newist\StudentApp\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+C:\Users\crgw8\Desktop\newist\StudentApp\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+C:\Users\crgw8\Desktop\newist\StudentApp\StudentApp\StudentApp\obj\Debug\StudentApp.exe
+C:\Users\crgw8\Desktop\newist\StudentApp\StudentApp\StudentApp\obj\Debug\StudentApp.pdb
