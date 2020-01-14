@@ -31,6 +31,7 @@ namespace StudentApp
         {
             bsStudents.DataSource = db.students.ToList();
             dgvStudents.DataSource = bsStudents;
+           // dgvStudents.Columns[0].ReadOnly = true;
         }
 
         // set student entities equal to students in BindingSource
@@ -54,8 +55,7 @@ namespace StudentApp
                 lblCurrent.Text = ((student)bsStudents.Current).CurrentCredits.ToString();
                 lblTotal.Text = ((student)bsStudents.Current).TotalCredits.ToString();
                 
-                
-                dgvStudents.Refresh();
+                //dgvStudents.Refresh();
             }
         }
 
@@ -70,6 +70,7 @@ namespace StudentApp
         {
             ((student)bsStudents.Current).CurrentCredits += 1;
             DisplayStudent();
+            dgvStudents.Refresh();
             lblForm1UserPrompt.Text = "1 credit has been added to the current credits of " + ((student)bsStudents.Current).FullName;
         }
 
@@ -78,6 +79,7 @@ namespace StudentApp
         {
             ((student)bsStudents.Current).CurrentCredits += 3;
             DisplayStudent();
+            dgvStudents.Refresh();
             lblForm1UserPrompt.Text = "3 credits has been added to the current credits of " + ((student)bsStudents.Current).FullName;
         }
 
@@ -100,6 +102,7 @@ namespace StudentApp
             {
                 ((student)bsStudents.Current).CurrentCredits = currentCreditsNumeric;
                 DisplayStudent();
+                dgvStudents.Refresh();
                 lblForm1UserPrompt.Text = ((student)bsStudents.Current).FullName + "'s" + " current crdits have been set to " + currentCredits;
                 txtUpdateCurrentCredits.Clear();
             }
@@ -121,6 +124,7 @@ namespace StudentApp
             {
                 ((student)bsStudents.Current).TotalCredits = totalCreditsNumeric;
                 DisplayStudent();
+                dgvStudents.Refresh();
                 lblForm1UserPrompt.Text = ((student)bsStudents.Current).FullName + "'s" + " total crdits have been set to " + totalCredits;
                 txtUpdateTotalCredits.Clear();
             }
@@ -139,6 +143,7 @@ namespace StudentApp
                 s.CurrentCredits += 1;
             }
             DisplayStudent();
+            dgvStudents.Refresh();
             lblForm1UserPrompt.Text = "1 credit has been added to the current credits of all students";
         }
 
@@ -150,6 +155,7 @@ namespace StudentApp
                 s.CurrentCredits += 3;
             }
             DisplayStudent();
+            dgvStudents.Refresh();
             lblForm1UserPrompt.Text = "3 credits have been added to the current credits of all students";
         }
 
@@ -161,6 +167,7 @@ namespace StudentApp
                 s.AddCurrentToTotal();
             }
             DisplayStudent();
+            dgvStudents.Refresh();
             lblForm1UserPrompt.Text = "The current credits of all students have been added to their total credits.";
         }
 
@@ -172,6 +179,7 @@ namespace StudentApp
                 s.CurrentCredits = 0;
             }
             DisplayStudent();
+            dgvStudents.Refresh();
             lblForm1UserPrompt.Text = "The current credits of all students have been set to 0.";
         }
 
@@ -309,14 +317,33 @@ namespace StudentApp
         // create new student & add student to BindingSource
         private void btnAddStudent_Click(object sender, EventArgs e)
         {
-            int nextStudentID = bsStudents.Count + 1;
+            //int nextStudentID = bsStudents.Count + 1;
+            //int nextStudentID = int.Parse(dgvStudents[0, bsStudents.Count - 1].Value.ToString()) + 1;
+            //var lastStudentInserted = db.students.OrderByDescending(student => student.Id).First();
+
+            int nextStudentID;
+            try
+            {
+                nextStudentID = int.Parse(dgvStudents[0, bsStudents.Count - 1].Value.ToString()) + 1;
+            }
+            catch (Exception ex)
+            {
+                nextStudentID = 1;
+            }
+
+            //int nextStudentID = lastStudentInserted.Id + 1;
 
             form2 = new Form2(nextStudentID);
             form2.ShowDialog();
             
             if (form2.newStudent != null)
             {
+                //db.students.Add(form2.newStudent);
+                
                 bsStudents.AddNew();
+                form2.newStudent = null;
+
+
             }
         }
 
@@ -329,9 +356,9 @@ namespace StudentApp
         private void btnRemove_Click(object sender, EventArgs e)
         {
             string fullName = ((student)bsStudents.Current).FullName;
-            //int currentStudentId = ((student)bsStudents.Current).Id;
-
+            
             bsStudents. RemoveCurrent();
+            //UpdateEntities();
 
             lblForm1UserPrompt.Text = fullName + " has been removed.";
         }

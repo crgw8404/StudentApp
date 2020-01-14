@@ -31,7 +31,6 @@ namespace StudentApp
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btnAdd3All = new System.Windows.Forms.Button();
             this.dgvStudents = new System.Windows.Forms.DataGridView();
             this.btnLast = new System.Windows.Forms.Button();
@@ -41,7 +40,6 @@ namespace StudentApp
             this.btnAdd1 = new System.Windows.Forms.Button();
             this.btnAddCurrentToTotal = new System.Windows.Forms.Button();
             this.lblTotal = new System.Windows.Forms.Label();
-            this.bsStudents = new System.Windows.Forms.BindingSource(this.components);
             this.label4 = new System.Windows.Forms.Label();
             this.lblCurrent = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -49,24 +47,10 @@ namespace StudentApp
             this.label2 = new System.Windows.Forms.Label();
             this.lblName = new System.Windows.Forms.Label();
             this.GroupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnSearchByLast = new System.Windows.Forms.Button();
             this.lstSearchLastName = new System.Windows.Forms.ListBox();
             this.txtSearchLastName = new System.Windows.Forms.TextBox();
             this.btnAddCurrentToTotalAll = new System.Windows.Forms.Button();
-            this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
-            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.saveToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.btnAddStudent = new System.Windows.Forms.Button();
             this.btnRemove = new System.Windows.Forms.Button();
             this.btnAdd1All = new System.Windows.Forms.Button();
@@ -86,20 +70,18 @@ namespace StudentApp
             this.btnSaveToDB = new System.Windows.Forms.Button();
             this.btnExitForm1 = new System.Windows.Forms.Button();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.btnSearchByFirst = new System.Windows.Forms.Button();
             this.lstSearchFirstName = new System.Windows.Forms.ListBox();
             this.txtSearchFirstName = new System.Windows.Forms.TextBox();
-            this.btnSearchByFirst = new System.Windows.Forms.Button();
-            this.btnSearchByLast = new System.Windows.Forms.Button();
+            this.bsStudents = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudents)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bsStudents)).BeginInit();
             this.GroupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
-            this.bindingNavigator1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bsStudents)).BeginInit();
             this.SuspendLayout();
             // 
             // btnAdd3All
@@ -115,6 +97,7 @@ namespace StudentApp
             // 
             // dgvStudents
             // 
+            this.dgvStudents.AllowUserToAddRows = false;
             this.dgvStudents.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvStudents.Location = new System.Drawing.Point(9, 37);
             this.dgvStudents.Margin = new System.Windows.Forms.Padding(2);
@@ -199,12 +182,6 @@ namespace StudentApp
             this.lblTotal.Size = new System.Drawing.Size(92, 27);
             this.lblTotal.TabIndex = 5;
             // 
-            // bsStudents
-            // 
-            this.bsStudents.DataSource = typeof(StudentApp.student);
-            this.bsStudents.AddingNew += new System.ComponentModel.AddingNewEventHandler(this.bsStudents_AddingNew);
-            this.bsStudents.CurrentItemChanged += new System.EventHandler(this.bsStudents_CurrentChanged);
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -280,6 +257,16 @@ namespace StudentApp
             this.GroupBox1.TabStop = false;
             this.GroupBox1.Text = "Search for Student By Last Name";
             // 
+            // btnSearchByLast
+            // 
+            this.btnSearchByLast.Location = new System.Drawing.Point(12, 42);
+            this.btnSearchByLast.Name = "btnSearchByLast";
+            this.btnSearchByLast.Size = new System.Drawing.Size(154, 23);
+            this.btnSearchByLast.TabIndex = 25;
+            this.btnSearchByLast.Text = "Search By Last";
+            this.btnSearchByLast.UseVisualStyleBackColor = true;
+            this.btnSearchByLast.Click += new System.EventHandler(this.btnSearchByLast_Click);
+            // 
             // lstSearchLastName
             // 
             this.lstSearchLastName.FormattingEnabled = true;
@@ -308,143 +295,6 @@ namespace StudentApp
             this.btnAddCurrentToTotalAll.Text = "Place Current Credits In Total Credits For All";
             this.btnAddCurrentToTotalAll.UseVisualStyleBackColor = true;
             this.btnAddCurrentToTotalAll.Click += new System.EventHandler(this.btnAddCurrentToTotalAll_Click);
-            // 
-            // bindingNavigator1
-            // 
-            this.bindingNavigator1.AddNewItem = this.bindingNavigatorAddNewItem;
-            this.bindingNavigator1.BindingSource = this.bsStudents;
-            this.bindingNavigator1.CountItem = this.bindingNavigatorCountItem;
-            this.bindingNavigator1.DeleteItem = this.bindingNavigatorDeleteItem;
-            this.bindingNavigator1.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.bindingNavigator1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.bindingNavigatorMoveFirstItem,
-            this.bindingNavigatorMovePreviousItem,
-            this.bindingNavigatorSeparator,
-            this.bindingNavigatorPositionItem,
-            this.bindingNavigatorCountItem,
-            this.bindingNavigatorSeparator1,
-            this.bindingNavigatorMoveNextItem,
-            this.bindingNavigatorMoveLastItem,
-            this.bindingNavigatorSeparator2,
-            this.bindingNavigatorAddNewItem,
-            this.bindingNavigatorDeleteItem,
-            this.saveToolStripButton,
-            this.toolStripSeparator,
-            this.toolStripSeparator1});
-            this.bindingNavigator1.Location = new System.Drawing.Point(0, 0);
-            this.bindingNavigator1.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
-            this.bindingNavigator1.MoveLastItem = this.bindingNavigatorMoveLastItem;
-            this.bindingNavigator1.MoveNextItem = this.bindingNavigatorMoveNextItem;
-            this.bindingNavigator1.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
-            this.bindingNavigator1.Name = "bindingNavigator1";
-            this.bindingNavigator1.PositionItem = this.bindingNavigatorPositionItem;
-            this.bindingNavigator1.Size = new System.Drawing.Size(1055, 31);
-            this.bindingNavigator1.TabIndex = 52;
-            this.bindingNavigator1.Text = "bindingNavigator1";
-            // 
-            // bindingNavigatorAddNewItem
-            // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(28, 28);
-            this.bindingNavigatorAddNewItem.Text = "Add new";
-            // 
-            // bindingNavigatorCountItem
-            // 
-            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 28);
-            this.bindingNavigatorCountItem.Text = "of {0}";
-            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
-            // 
-            // bindingNavigatorDeleteItem
-            // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(28, 28);
-            this.bindingNavigatorDeleteItem.Text = "Delete";
-            // 
-            // bindingNavigatorMoveFirstItem
-            // 
-            this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
-            this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
-            this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(28, 28);
-            this.bindingNavigatorMoveFirstItem.Text = "Move first";
-            // 
-            // bindingNavigatorMovePreviousItem
-            // 
-            this.bindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
-            this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
-            this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(28, 28);
-            this.bindingNavigatorMovePreviousItem.Text = "Move previous";
-            // 
-            // bindingNavigatorSeparator
-            // 
-            this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 31);
-            // 
-            // bindingNavigatorPositionItem
-            // 
-            this.bindingNavigatorPositionItem.AccessibleName = "Position";
-            this.bindingNavigatorPositionItem.AutoSize = false;
-            this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
-            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(35, 23);
-            this.bindingNavigatorPositionItem.Text = "0";
-            this.bindingNavigatorPositionItem.ToolTipText = "Current position";
-            // 
-            // bindingNavigatorSeparator1
-            // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 31);
-            // 
-            // bindingNavigatorMoveNextItem
-            // 
-            this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
-            this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
-            this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(28, 28);
-            this.bindingNavigatorMoveNextItem.Text = "Move next";
-            // 
-            // bindingNavigatorMoveLastItem
-            // 
-            this.bindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
-            this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
-            this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(28, 28);
-            this.bindingNavigatorMoveLastItem.Text = "Move last";
-            // 
-            // bindingNavigatorSeparator2
-            // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 31);
-            // 
-            // saveToolStripButton
-            // 
-            this.saveToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.saveToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("saveToolStripButton.Image")));
-            this.saveToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.saveToolStripButton.Name = "saveToolStripButton";
-            this.saveToolStripButton.Size = new System.Drawing.Size(28, 28);
-            this.saveToolStripButton.Text = "&Save";
-            // 
-            // toolStripSeparator
-            // 
-            this.toolStripSeparator.Name = "toolStripSeparator";
-            this.toolStripSeparator.Size = new System.Drawing.Size(6, 31);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 31);
             // 
             // btnAddStudent
             // 
@@ -659,6 +509,16 @@ namespace StudentApp
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Search for Student By First Name";
             // 
+            // btnSearchByFirst
+            // 
+            this.btnSearchByFirst.Location = new System.Drawing.Point(10, 42);
+            this.btnSearchByFirst.Name = "btnSearchByFirst";
+            this.btnSearchByFirst.Size = new System.Drawing.Size(156, 23);
+            this.btnSearchByFirst.TabIndex = 24;
+            this.btnSearchByFirst.Text = "Search By First";
+            this.btnSearchByFirst.UseVisualStyleBackColor = true;
+            this.btnSearchByFirst.Click += new System.EventHandler(this.btnSearchByFirst_Click);
+            // 
             // lstSearchFirstName
             // 
             this.lstSearchFirstName.FormattingEnabled = true;
@@ -677,25 +537,11 @@ namespace StudentApp
             this.txtSearchFirstName.Size = new System.Drawing.Size(156, 20);
             this.txtSearchFirstName.TabIndex = 22;
             // 
-            // btnSearchByFirst
+            // bsStudents
             // 
-            this.btnSearchByFirst.Location = new System.Drawing.Point(10, 42);
-            this.btnSearchByFirst.Name = "btnSearchByFirst";
-            this.btnSearchByFirst.Size = new System.Drawing.Size(156, 23);
-            this.btnSearchByFirst.TabIndex = 24;
-            this.btnSearchByFirst.Text = "Search By First";
-            this.btnSearchByFirst.UseVisualStyleBackColor = true;
-            this.btnSearchByFirst.Click += new System.EventHandler(this.btnSearchByFirst_Click);
-            // 
-            // btnSearchByLast
-            // 
-            this.btnSearchByLast.Location = new System.Drawing.Point(12, 42);
-            this.btnSearchByLast.Name = "btnSearchByLast";
-            this.btnSearchByLast.Size = new System.Drawing.Size(154, 23);
-            this.btnSearchByLast.TabIndex = 25;
-            this.btnSearchByLast.Text = "Search By Last";
-            this.btnSearchByLast.UseVisualStyleBackColor = true;
-            this.btnSearchByLast.Click += new System.EventHandler(this.btnSearchByLast_Click);
+            this.bsStudents.DataSource = typeof(StudentApp.student);
+            this.bsStudents.AddingNew += new System.ComponentModel.AddingNewEventHandler(this.bsStudents_AddingNew);
+            this.bsStudents.CurrentItemChanged += new System.EventHandler(this.bsStudents_CurrentChanged);
             // 
             // Form1
             // 
@@ -709,7 +555,6 @@ namespace StudentApp
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.bindingNavigator1);
             this.Controls.Add(this.GroupBox1);
             this.Controls.Add(this.dgvStudents);
             this.Margin = new System.Windows.Forms.Padding(2);
@@ -717,12 +562,8 @@ namespace StudentApp
             this.Text = "Student App";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudents)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bsStudents)).EndInit();
             this.GroupBox1.ResumeLayout(false);
             this.GroupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).EndInit();
-            this.bindingNavigator1.ResumeLayout(false);
-            this.bindingNavigator1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
@@ -730,8 +571,8 @@ namespace StudentApp
             this.groupBox4.PerformLayout();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bsStudents)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -758,23 +599,8 @@ namespace StudentApp
         internal System.Windows.Forms.ListBox lstSearchLastName;
         internal System.Windows.Forms.TextBox txtSearchLastName;
         internal System.Windows.Forms.Button btnAddCurrentToTotalAll;
-        private System.Windows.Forms.BindingNavigator bindingNavigator1;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorAddNewItem;
-        private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorDeleteItem;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveFirstItem;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorMovePreviousItem;
-        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator;
-        private System.Windows.Forms.ToolStripTextBox bindingNavigatorPositionItem;
-        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator1;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveNextItem;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
-        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
         private System.Windows.Forms.Button btnAddStudent;
         private System.Windows.Forms.Button btnRemove;
-        private System.Windows.Forms.ToolStripButton saveToolStripButton;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.Button btnUpdateCurrentCredits;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtUpdateCurrentCredits;
